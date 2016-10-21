@@ -14,7 +14,7 @@ namespace SimpleCalculator3
         private CompositionContainer _container;
 
         [Import(typeof(ICalculator))]
-        public ICalculator calculator;
+        public ICalculator calculator = null;
 
 
         private Program()
@@ -50,10 +50,7 @@ namespace SimpleCalculator3
 			while(true)
 	        {
 		        s = Console.ReadLine();
-		        if (s == "exit")
-		        {
-			        break;
-		        }
+		        if (s == "exit") break;
 				
 				Console.WriteLine(p.calculator.Calculate(s));
 			} 

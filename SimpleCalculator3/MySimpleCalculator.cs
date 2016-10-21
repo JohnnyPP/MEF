@@ -11,7 +11,7 @@ namespace SimpleCalculator3
     class MySimpleCalculator : ICalculator
     {
         [ImportMany]
-        IEnumerable<Lazy<IOperation, IOperationData>> operations;
+        IEnumerable<Lazy<IOperation, IOperationData>> operations = null;
 
         public String Calculate(String input)
         {
