@@ -6,9 +6,9 @@ using System.ComponentModel.Composition;
 
 namespace ExtendedOperations {
 
-    [Export(typeof(SimpleCalculator3.IOperation))]
+    [Export(typeof(SimpleCalculator3.Interfaces.IOperation))]
     [ExportMetadata("Symbol", '%')]
-    public class Mod : SimpleCalculator3.IOperation
+    public class Mod : SimpleCalculator3.Interfaces.IOperation
     {
         public int Operate(int left, int right)
         {

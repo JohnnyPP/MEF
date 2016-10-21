@@ -4,24 +4,10 @@ using System.Linq;
 using System.Text;
 using System.ComponentModel.Composition;
 using System.ComponentModel.Composition.Hosting;
+using static SimpleCalculator3.Interfaces;
 
 namespace SimpleCalculator3
 {
-
-    public interface ICalculator
-    {
-        String Calculate(String input);
-    }
-
-    public interface IOperation
-    {
-        int Operate(int left, int right);
-    }
-
-    public interface IOperationData
-    {
-        Char Symbol { get; }
-    }
 
     class Program
     {

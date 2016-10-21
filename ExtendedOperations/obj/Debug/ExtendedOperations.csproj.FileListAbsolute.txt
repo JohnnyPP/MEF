@@ -3,3 +3,8 @@ D:\DTemp\MEF\C#\SimpleCalculator3\Extensions\ExtendedOperations.pdb
 D:\DTemp\MEF\C#\ExtendedOperations\obj\Debug\ExtendedOperations.csprojResolveAssemblyReference.cache
 D:\DTemp\MEF\C#\ExtendedOperations\obj\Debug\ExtendedOperations.dll
 D:\DTemp\MEF\C#\ExtendedOperations\obj\Debug\ExtendedOperations.pdb
+D:\Git\MEF\C#\SimpleCalculator3\Extensions\ExtendedOperations.dll
+D:\Git\MEF\C#\SimpleCalculator3\Extensions\ExtendedOperations.pdb
+D:\Git\MEF\C#\ExtendedOperations\obj\Debug\ExtendedOperations.csprojResolveAssemblyReference.cache
+D:\Git\MEF\C#\ExtendedOperations\obj\Debug\ExtendedOperations.dll
+D:\Git\MEF\C#\ExtendedOperations\obj\Debug\ExtendedOperations.pdb
