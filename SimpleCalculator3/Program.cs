@@ -23,19 +23,6 @@ namespace SimpleCalculator3
         Char Symbol { get; }
     }
 
-    [Export(typeof(IOperation))]
-    [ExportMetadata("Symbol", '-')]
-    class Subtract : IOperation
-    {
-
-        public int Operate(int left, int right)
-        {
-            return left - right;
-        }
-
-    }
-
-
 
     [Export(typeof(ICalculator))]
     class MySimpleCalculator : ICalculator
@@ -99,7 +86,7 @@ namespace SimpleCalculator3
             var catalog = new AggregateCatalog();
             //Adds all the parts found in the same assembly as the Program class
             catalog.Catalogs.Add(new AssemblyCatalog(typeof(Program).Assembly));
-            catalog.Catalogs.Add(new DirectoryCatalog(@"D:\DTemp\MEF\C#\SimpleCalculator3\Extensions"));
+            catalog.Catalogs.Add(new DirectoryCatalog(@"D:\Git\MEF\C#\SimpleCalculator3\Extensions"));
 
 
             //Create the CompositionContainer with the parts in the catalog

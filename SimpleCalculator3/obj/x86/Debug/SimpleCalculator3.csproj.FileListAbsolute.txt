@@ -3,5 +3,7 @@ D:\DTemp\MEF\C#\SimpleCalculator3\bin\Debug\SimpleCalculator3.pdb
 D:\DTemp\MEF\C#\SimpleCalculator3\obj\x86\Debug\SimpleCalculator3.csprojResolveAssemblyReference.cache
 D:\DTemp\MEF\C#\SimpleCalculator3\obj\x86\Debug\SimpleCalculator3.exe
 D:\DTemp\MEF\C#\SimpleCalculator3\obj\x86\Debug\SimpleCalculator3.pdb
+D:\Git\MEF\C#\SimpleCalculator3\bin\Debug\SimpleCalculator3.exe
+D:\Git\MEF\C#\SimpleCalculator3\bin\Debug\SimpleCalculator3.pdb
 D:\Git\MEF\C#\SimpleCalculator3\obj\x86\Debug\SimpleCalculator3.exe
 D:\Git\MEF\C#\SimpleCalculator3\obj\x86\Debug\SimpleCalculator3.pdb
